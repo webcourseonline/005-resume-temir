@@ -1,25 +1,47 @@
 body {
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 20px;
+  background: #cddff5;
 }
-img {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px;
+.wrapper {
+  width: 65%;
+  margin: 0 auto 50px;
+  padding: 0 5% 5px;
+  background: #ebf4fb;
+  border-radius: 0 0 5px 5px;
 }
-h1 {
-    font-size: 24px;
-    font-weight: bold;
+.aboutMe {
+  margin-left: 60px;
 }
-h2 {
-    font-size: 14px;
-    color: blue;
+.photo {
+  text-align: center;
 }
-h3 {
-    font-size: 14px;
-    font-weight: bold;
+.portrait {
+  width: 75%;
+  height: 75%;
+  margin: auto 0;
+  border-radius: 5px;
+}
+.pure-table {
+  width: 100%;
 }
 .period {
-
+  width: 15%;
+}
+.textOrganization {
+  text-decoration: underline;
+}
+.textPosition {
+  font-weight: bold;
+  font-style: italic;
+}
+.textResponsibilities {
+  list-style: disc;
+}
+a {
+  text-decoration: none;
+}
+.topButton {
+  text-align: right;
+}
+.pure-button {
+  margin-bottom: 5px;
 }
